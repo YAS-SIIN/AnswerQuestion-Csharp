@@ -63,6 +63,32 @@ public class MainService
         Console.WriteLine("Question added successfully!");
     }
 
+    /// <summary>
+    /// Get Question with answer
+    /// </summary>
+    /// <param name="question"></param>
+    public void GetQuestion(string question)
+    {
+        if (question.Length > 255)
+        {
+            Console.WriteLine("Question exceeds the maximum allowed length of 255 characters.");
+            return;
+        }
+
+        var userQuestion = questionAnswers.FirstOrDefault(x => x.Question == question);
+
+        if (questionAnswers.Any(x => x.Question == question))
+        {
+            foreach (string answer in userQuestion.Answers)
+            {
+                Console.WriteLine(answer);
+            }
+        }
+        else
+        {
+            Console.WriteLine("The answer to life, universe and everything is 42");
+        }
+    }
 
 
 }
