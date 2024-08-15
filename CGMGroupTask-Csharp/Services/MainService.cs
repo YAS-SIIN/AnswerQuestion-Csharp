@@ -14,7 +14,7 @@ public class MainService
     /// <summary>
     /// Add new question to list of questions
     /// </summary>
-    /// <param name="input"></param>
+    /// <param name="input">the input string containing question and answers</param>
     public void AddQuestion(string input)
     {
         // Ensure the input is valid and split by '?'
@@ -66,7 +66,7 @@ public class MainService
     /// <summary>
     /// Get Question with answer
     /// </summary>
-    /// <param name="question"></param>
+    /// <param name="question">the question string</param>
     public void GetQuestion(string question)
     {
         if (question.Length > 255)
