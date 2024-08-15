@@ -17,10 +17,12 @@ Therefore the following restrictions apply:
 - If the user asks a question whish is  stored the program should print all answers to that question. Every Answer in a separate line
 Adding a question looks like:
 
+```
  <question>? “<answer1>” “<answer2>” “<answerX>”
  Char “?” is the separator between question and answers
  Every Question needs to have at least one answer but can have unlimited answers all inside of char “
 Provide tests for the functionality described in 1)
+```
 
 Provide the source code on any GIT repo worldwide (GITLAB, GITHUB, whatever you prefer and/or use)
 
