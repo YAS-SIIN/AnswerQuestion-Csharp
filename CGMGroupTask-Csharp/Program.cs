@@ -9,6 +9,7 @@ MainService mainService = new MainService();
 
 while (true)
 {
+    Console.WriteLine("\n");
     Console.WriteLine("Choose an option: \n1. Ask a question\n2. Add a question");
     string choice = Console.ReadLine().Trim();
 
