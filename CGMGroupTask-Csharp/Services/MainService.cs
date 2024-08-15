@@ -5,7 +5,7 @@ namespace CGMGroupTask_Csharp.Services;
 
 public class MainService
 {
-    public List<QuestionAnswer> questionAnswers;
+    List<QuestionAnswer> questionAnswers;
 
     public MainService()
     {
