@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using CGMGroupTask_Csharp.Models;
+﻿
 using CGMGroupTask_Csharp.Services;
 
 Console.WriteLine("Hello, World!");
