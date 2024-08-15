@@ -1,6 +1,6 @@
 # CGMGroupTask-Csharp
 
-Language: Java
+Language: Csharp
 
  
 
@@ -47,14 +47,5 @@ Answer will be
  - the answer to life, universe and everything is 42
  
 
-😊
-
 https://www.youtube.com/watch?v=aboZctrHfK8
-
-
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
 
