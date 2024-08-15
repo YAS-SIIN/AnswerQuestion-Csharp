@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGMGroupTask-Csharp", "CGMGroupTask-Csharp\CGMGroupTask-Csharp.csproj", "{BF48ECE8-EF31-4672-9B4F-779408AA36E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGMGroupTask-Csharp", "src\CGMGroupTask-Csharp\CGMGroupTask-Csharp.csproj", "{BF48ECE8-EF31-4672-9B4F-779408AA36E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGMGroupTask-Csharp.Test", "tests\CGMGroupTask-Csharp.Test\CGMGroupTask-Csharp.Test.csproj", "{845D877A-E5A7-4569-88DE-16A8CC59481B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BF48ECE8-EF31-4672-9B4F-779408AA36E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF48ECE8-EF31-4672-9B4F-779408AA36E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF48ECE8-EF31-4672-9B4F-779408AA36E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845D877A-E5A7-4569-88DE-16A8CC59481B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845D877A-E5A7-4569-88DE-16A8CC59481B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845D877A-E5A7-4569-88DE-16A8CC59481B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845D877A-E5A7-4569-88DE-16A8CC59481B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,7 +5,7 @@ namespace CGMGroupTask_Csharp.Services;
 
 public class MainService
 {
-    List<QuestionAnswer> questionAnswers;
+    public List<QuestionAnswer> questionAnswers;
 
     public MainService()
     {
@@ -81,7 +81,7 @@ public class MainService
         {
             foreach (string answer in userQuestion.Answers)
             {
-                Console.WriteLine(answer);
+                Console.WriteLine($" * {answer}");
             }
         }
         else
