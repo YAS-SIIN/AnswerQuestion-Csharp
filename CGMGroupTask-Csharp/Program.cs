@@ -5,8 +5,6 @@ using CGMGroupTask_Csharp.Services;
 Console.WriteLine("Hello, World!");
 
 
-
-QuestionAnswer qaSystem = new QuestionAnswer();
 MainService mainService = new MainService();
 
 while (true)
