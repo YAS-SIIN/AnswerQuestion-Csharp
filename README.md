@@ -1,10 +1,9 @@
-# CGMGroupTask-Csharp
+# AnswerQuestion-Csharp
 
 Language: Csharp
 
  
-
-Write a Csharp console application that gives me two options. One to ask a specific question and the other option is to add questions and their answers
+A Csharp console application that gives me two options. One to ask a specific question and the other option is to add questions and their answers
  
 
 Therefore the following restrictions apply:
@@ -23,11 +22,6 @@ Adding a question looks like:
   Every Question needs to have at least one answer but can have unlimited answers all inside of char “
 ```
 
-Provide tests for the functionality described in 1)
-Provide the source code on any GIT repo worldwide (GITLAB, GITHUB, whatever you prefer and/or use)
-
- No other restrictions apply
- 
 
 
 
@@ -50,6 +44,3 @@ When is Peters birthday?
 Answer will be
  - the answer to life, universe and everything is 42
  
-
-https://www.youtube.com/watch?v=aboZctrHfK8
-
